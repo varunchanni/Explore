@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="LeftMenuCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dashboard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiQ-05-Txd">
+                        <rect key="frame" x="42" y="8" width="268" height="46"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wnv-pz-ACh">
+                        <rect key="frame" x="10" y="21" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="i0S-Ef-agb"/>
+                            <constraint firstAttribute="height" constant="20" id="u4X-cq-0TC"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="aiQ-05-Txd" firstAttribute="leading" secondItem="wnv-pz-ACh" secondAttribute="trailing" constant="12" id="6xW-3C-DVe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="aiQ-05-Txd" secondAttribute="trailing" constant="2" id="b8A-k7-i0d"/>
+                    <constraint firstItem="aiQ-05-Txd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="fLm-V3-flw"/>
+                    <constraint firstItem="wnv-pz-ACh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="iQ7-wV-cMz"/>
+                    <constraint firstItem="wnv-pz-ACh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="k8y-TN-nZ9"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="aiQ-05-Txd" secondAttribute="bottom" constant="-3" id="mhd-xq-2kt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="imgMenuItem" destination="wnv-pz-ACh" id="FzP-lK-aOg"/>
+                <outlet property="lblMenuText" destination="aiQ-05-Txd" id="FXR-CW-iXp"/>
+            </connections>
+            <point key="canvasLocation" x="194" y="195"/>
+        </tableViewCell>
+    </objects>
+</document>

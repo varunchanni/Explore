@@ -1,0 +1,23 @@
+//
+//  PrefixExplore.pch
+//  Explore
+//
+//  Created by Varun on 18/05/2015.
+//  Copyright (c) 2015 Channi. All rights reserved.
+//
+
+#ifndef Explore_PrefixExplore_pch
+#define Explore_PrefixExplore_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <AFNetworking/AFNetworking.h>
+#import "MFSideMenuContainerViewController.h"
+#import "BaseViewController.h"
+#import "AppFunctions.h"
+#import "Constants.h"
+
+#import "EXTextField.h"
+
+#endif

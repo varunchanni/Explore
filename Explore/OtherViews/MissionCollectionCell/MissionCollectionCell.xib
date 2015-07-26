@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MissionCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="200"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePs-V8-hcy">
+                        <rect key="frame" x="2" y="0.0" width="126" height="195"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taj_mahal.png" translatesAutoresizingMaskIntoConstraints="NO" id="2u4-rb-A45">
+                                <rect key="frame" x="3" y="5" width="120" height="110"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taj Mahal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vl0-Mo-Gea">
+                                <rect key="frame" x="8" y="115" width="110" height="18"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sed nec taucbus visit. Ut impedid magria" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7x-Xt-fcs">
+                                <rect key="frame" x="8" y="135" width="110" height="42"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="11.5"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhw-9p-0Gf">
+                                <rect key="frame" x="8" y="185" width="40" height="7"/>
+                                <subviews>
+                                    <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_rat_sel.png" translatesAutoresizingMaskIntoConstraints="NO" id="bMZ-7T-rE7">
+                                        <rect key="frame" x="0.0" y="0.0" width="8" height="7"/>
+                                    </imageView>
+                                    <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_rat_sel.png" translatesAutoresizingMaskIntoConstraints="NO" id="r4t-aF-IbU">
+                                        <rect key="frame" x="8" y="0.0" width="8" height="7"/>
+                                    </imageView>
+                                    <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_rat_sel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ix7-pE-zS1">
+                                        <rect key="frame" x="16" y="0.0" width="8" height="7"/>
+                                    </imageView>
+                                    <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_rat_sel.png" translatesAutoresizingMaskIntoConstraints="NO" id="tX0-Zh-UrU">
+                                        <rect key="frame" x="24" y="0.0" width="8" height="7"/>
+                                    </imageView>
+                                    <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_rat_unsel.png" translatesAutoresizingMaskIntoConstraints="NO" id="9tZ-Yf-CPG">
+                                        <rect key="frame" x="32" y="0.0" width="8" height="7"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="7" id="Xoj-cU-kyC"/>
+                                    <constraint firstAttribute="width" constant="40" id="Z1b-ty-E35"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVB-X9-11e">
+                                <rect key="frame" x="91" y="8" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="ebP-sK-bbw"/>
+                                    <constraint firstAttribute="height" constant="30" id="jDj-Xu-azG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="24"/>
+                                <state key="normal" title="i">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonInfoMissionAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Wct-zy-UmK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JVB-X9-11e" firstAttribute="top" secondItem="ePs-V8-hcy" secondAttribute="top" constant="8" id="6tg-AB-dhu"/>
+                            <constraint firstAttribute="bottom" secondItem="zhw-9p-0Gf" secondAttribute="bottom" constant="3" id="NWN-vp-sR5"/>
+                            <constraint firstAttribute="trailing" secondItem="JVB-X9-11e" secondAttribute="trailing" constant="5" id="UKT-VX-O4T"/>
+                            <constraint firstItem="zhw-9p-0Gf" firstAttribute="leading" secondItem="ePs-V8-hcy" secondAttribute="leading" constant="8" id="fO9-6y-5aN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ePs-V8-hcy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="BLD-3H-kDX"/>
+                <constraint firstAttribute="trailing" secondItem="ePs-V8-hcy" secondAttribute="trailing" constant="2" id="IJS-NK-3ld"/>
+                <constraint firstItem="ePs-V8-hcy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="kDi-Fj-9d7"/>
+                <constraint firstAttribute="bottom" secondItem="ePs-V8-hcy" secondAttribute="bottom" constant="5" id="zKD-LG-ZTW"/>
+            </constraints>
+            <size key="customSize" width="146" height="205"/>
+            <connections>
+                <outlet property="btnInfo" destination="JVB-X9-11e" id="EbT-sR-ova"/>
+                <outlet property="imgViewMission" destination="2u4-rb-A45" id="fcB-c6-S6k"/>
+                <outlet property="lblMissionDetailText" destination="L7x-Xt-fcs" id="iKp-bx-tQZ"/>
+                <outlet property="lblMissionText" destination="Vl0-Mo-Gea" id="jsY-cG-n57"/>
+                <outlet property="viewMain" destination="ePs-V8-hcy" id="ql4-4X-zxt"/>
+            </connections>
+            <point key="canvasLocation" x="311" y="434"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="star_rat_sel.png" width="8" height="7"/>
+        <image name="star_rat_unsel.png" width="8" height="7"/>
+        <image name="taj_mahal.png" width="83" height="73"/>
+    </resources>
+</document>
