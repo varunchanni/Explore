@@ -13,7 +13,7 @@ typedef enum : NSUInteger {
     ChoiceMission,
 } AdminChoice;
 
-@interface AdminMissionCategoryViewController : UIViewController
+@interface AdminMissionCategoryViewController : AdminBaseViewController
 
 @property (assign, nonatomic) AdminChoice adminChoiceType;
 

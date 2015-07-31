@@ -21,8 +21,6 @@
     __weak IBOutlet UIView *viewTextBack;
     __weak IBOutlet UIPickerView *pickerCity;
     __weak IBOutlet UIVisualEffectView *viewBlurBtns;
-    __weak IBOutlet UIView *viewAdmin;
-    __weak IBOutlet UIView *viewCenterButtons;
 }
 
 @end
@@ -37,7 +35,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [viewAdmin setHidden:YES];
     [self enablePanMode:YES];
 }
 
@@ -51,10 +48,6 @@
 - (void)setupCitySelectView {
     
     [self setTitle:@"EƎxplore"];
-    
-    for (UIButton *button in viewCenterButtons.subviews) {
-        [button.layer setCornerRadius:4.f];
-    }
     
 //    NSUserDefaults *userDefs = [NSUserDefaults standardUserDefaults];
 //    
@@ -152,27 +145,6 @@
  }
  */
 
-#pragma mark - Admin Buttons
-
-- (IBAction)buttonForAdminTouched:(id)sender {
-    
-    if ([sender tag] < 3) {
-        
-        [self enablePanMode:NO];
-        
-        AdminMissionCategoryViewController *objAdminMissionCategoryView = (AdminMissionCategoryViewController *)[self.storyboard instantiateViewControllerWithIdentifier:_EX_IDAdminCatMission];
-        objAdminMissionCategoryView.adminChoiceType = [sender tag];
-        [self.navigationController pushViewController:objAdminMissionCategoryView animated:YES];
-    }
-    else {
-        [[[UIAlertView alloc] initWithTitle:nil
-                                    message:@"Under Development"
-                                   delegate:nil
-                          cancelButtonTitle:@"OK"
-                          otherButtonTitles:nil, nil] show];
-    }
-}
-
 #pragma mark - Start Tapped
 
 - (IBAction)buttonStatusesTouchedAction:(id)sender {
@@ -189,13 +161,6 @@
     MissionsViewController *objMissionsView = (MissionsViewController *)[self.storyboard instantiateViewControllerWithIdentifier:_EX_IDMissionsViewStrbrd];
     [self.navigationController pushViewController:objMissionsView animated:YES];
     
-}
-
-- (IBAction)buttonAdminTouched:(id)sender {
-    
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
-    [viewAdmin setHidden:NO];
-    [self setTitle:@""];
 }
 
 - (void)doneButtonTouched:(id)sender {

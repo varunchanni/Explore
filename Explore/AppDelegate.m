@@ -23,16 +23,24 @@
     
     [self setAppDefaults];
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:_EX_IDMainStrbrd
-                                                         bundle:[NSBundle mainBundle]];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:_EX_IDMainStrbrd
+//                                                         bundle:[NSBundle mainBundle]];
+    
+    UIStoryboard *storyboardAdmin = [UIStoryboard storyboardWithName:_EX_IDStrbrdAdmin
+                                                              bundle:[NSBundle mainBundle]];
+    
     _container = (MFSideMenuContainerViewController *)self.window.rootViewController;
-    UINavigationController *navigationController = [storyboard instantiateViewControllerWithIdentifier:_EX_IDMainNavStrbrd];
-    UIViewController *leftSideMenuViewController = [storyboard instantiateViewControllerWithIdentifier:_EX_IDLeftMenuStrbrd];
-    UIViewController *rightSideMenuViewController = [storyboard instantiateViewControllerWithIdentifier:_EX_IDRightMenuStrbrd];
+//    UINavigationController *navigationController = [storyboard instantiateViewControllerWithIdentifier:_EX_IDMainNavStrbrd];
+//    UIViewController *leftSideMenuViewController = [storyboard instantiateViewControllerWithIdentifier:_EX_IDLeftMenuStrbrd];
+//    UIViewController *rightSideMenuViewController = [storyboard instantiateViewControllerWithIdentifier:_EX_IDRightMenuStrbrd];
+    
+    UINavigationController *navControllerAdmin = [storyboardAdmin instantiateViewControllerWithIdentifier:_EX_IDNavAdminStrbrdID];
+    UIViewController *leftSideMenuViewController = nil;
+    UIViewController *rightSideMenuViewController = nil;
     
     [_container setLeftMenuViewController:leftSideMenuViewController];
     [_container setRightMenuViewController:rightSideMenuViewController];
-    [_container setCenterViewController:navigationController];
+    [_container setCenterViewController:navControllerAdmin];
     
     return [[FBSDKApplicationDelegate sharedInstance] application:application
                                     didFinishLaunchingWithOptions:launchOptions];
@@ -76,6 +84,10 @@
 
 - (void)setAppDefaults {
     
+    if (![EXUserDefs objectForKey:@"LoginText"]) {
+        [EXUserDefs setObject:@"" forKey:@"LoginText"];
+    }
+    
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent
                                                 animated:NO];
     
@@ -90,8 +102,8 @@
     
     [[UINavigationBar appearance] setTitleTextAttributes:dictAttributes];
     
-    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"backButton"]];
-    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"backButton"]];
+//    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"backButton"]];
+//    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"backButton"]];
 }
 
 @end

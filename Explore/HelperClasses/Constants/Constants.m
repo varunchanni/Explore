@@ -17,7 +17,11 @@ NSString *const _EX_UDKeyUType          = @"ULoggedInType";
 
 #pragma mark - Storyboard Constants
 
+NSString *const _EX_IDStrbrdAdmin           = @"Admin";
 NSString *const _EX_IDMainStrbrd            = @"Main";
+
+NSString *const _EX_IDNavAdminStrbrdID      = @"AdminNavigationController";
+
 NSString *const _EX_IDMainNavStrbrd         = @"MainNavStrbrdID";
 NSString *const _EX_IDCityMissionStrbrd     = @"CityMissionStrbrdID";
 NSString *const _EX_IDFeedViewStrbrdID      = @"FeedViewStrbrdID";

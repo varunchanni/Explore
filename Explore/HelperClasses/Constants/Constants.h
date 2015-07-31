@@ -25,7 +25,11 @@ FOUNDATION_EXPORT NSString *const _EX_UDKeyUType;
 
 //  Storyboard Constants
 
+FOUNDATION_EXPORT NSString *const _EX_IDStrbrdAdmin;
 FOUNDATION_EXPORT NSString *const _EX_IDMainStrbrd;
+
+FOUNDATION_EXPORT NSString *const _EX_IDNavAdminStrbrdID;
+
 FOUNDATION_EXPORT NSString *const _EX_IDMainNavStrbrd;
 FOUNDATION_EXPORT NSString *const _EX_IDFeedViewStrbrdID;
 FOUNDATION_EXPORT NSString *const _EX_IDMissionsViewStrbrd;

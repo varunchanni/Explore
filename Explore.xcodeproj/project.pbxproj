@@ -206,6 +206,11 @@
 		84D62B501B24A773004745A0 /* CouponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D62B4F1B24A773004745A0 /* CouponsViewController.m */; };
 		84D62B551B24A848004745A0 /* CouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D62B531B24A848004745A0 /* CouponCell.m */; };
 		84D62B561B24A848004745A0 /* CouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D62B541B24A848004745A0 /* CouponCell.xib */; };
+		84D8557D1B6BD3A500ACF1B8 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D8557B1B6BD3A500ACF1B8 /* Admin.storyboard */; };
+		84D855801B6BD47600ACF1B8 /* AdminSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D8557F1B6BD47600ACF1B8 /* AdminSettingsViewController.m */; };
+		84D855841B6BD4AC00ACF1B8 /* AdminInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D855831B6BD4AC00ACF1B8 /* AdminInitialViewController.m */; };
+		84D855871B6BF21300ACF1B8 /* AdminBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D855861B6BF21300ACF1B8 /* AdminBaseViewController.m */; };
+		84D8558B1B6C003B00ACF1B8 /* AdminUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D8558A1B6C003B00ACF1B8 /* AdminUsersViewController.m */; };
 		84EC519A1B0A57FC00F2F624 /* a_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC518C1B0A57FC00F2F624 /* a_icon.png */; };
 		84EC519B1B0A57FC00F2F624 /* a_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC518D1B0A57FC00F2F624 /* a_icon@2x.png */; };
 		84EC519C1B0A57FC00F2F624 /* a_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC518E1B0A57FC00F2F624 /* a_icon@3x.png */; };
@@ -462,6 +467,15 @@
 		84D62B521B24A848004745A0 /* CouponCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponCell.h; path = OtherViews/CouponCell/CouponCell.h; sourceTree = "<group>"; };
 		84D62B531B24A848004745A0 /* CouponCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponCell.m; path = OtherViews/CouponCell/CouponCell.m; sourceTree = "<group>"; };
 		84D62B541B24A848004745A0 /* CouponCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CouponCell.xib; path = OtherViews/CouponCell/CouponCell.xib; sourceTree = "<group>"; };
+		84D8557C1B6BD3A500ACF1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Explore/Base.lproj/Admin.storyboard; sourceTree = SOURCE_ROOT; };
+		84D8557E1B6BD47600ACF1B8 /* AdminSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminSettingsViewController.h; path = AdminSettingsViewController/AdminSettingsViewController.h; sourceTree = "<group>"; };
+		84D8557F1B6BD47600ACF1B8 /* AdminSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminSettingsViewController.m; path = AdminSettingsViewController/AdminSettingsViewController.m; sourceTree = "<group>"; };
+		84D855821B6BD4AC00ACF1B8 /* AdminInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminInitialViewController.h; path = AdminInitialViewController/AdminInitialViewController.h; sourceTree = "<group>"; };
+		84D855831B6BD4AC00ACF1B8 /* AdminInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminInitialViewController.m; path = AdminInitialViewController/AdminInitialViewController.m; sourceTree = "<group>"; };
+		84D855851B6BF21300ACF1B8 /* AdminBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminBaseViewController.h; path = AdminBaseViewController/AdminBaseViewController.h; sourceTree = "<group>"; };
+		84D855861B6BF21300ACF1B8 /* AdminBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminBaseViewController.m; path = AdminBaseViewController/AdminBaseViewController.m; sourceTree = "<group>"; };
+		84D855891B6C003B00ACF1B8 /* AdminUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminUsersViewController.h; path = AdminUsersViewController/AdminUsersViewController.h; sourceTree = "<group>"; };
+		84D8558A1B6C003B00ACF1B8 /* AdminUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminUsersViewController.m; path = AdminUsersViewController/AdminUsersViewController.m; sourceTree = "<group>"; };
 		84EC518C1B0A57FC00F2F624 /* a_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_icon.png; sourceTree = "<group>"; };
 		84EC518D1B0A57FC00F2F624 /* a_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_icon@2x.png"; sourceTree = "<group>"; };
 		84EC518E1B0A57FC00F2F624 /* a_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_icon@3x.png"; sourceTree = "<group>"; };
@@ -541,7 +555,6 @@
 				844011891AFEEF590085D766 /* HelperClasses */,
 				844011921AFEF1740085D766 /* OtherViews */,
 				8440117F1AFEEEF00085D766 /* ViewControllers */,
-				844011631AFEE8D10085D766 /* Main.storyboard */,
 				844011661AFEE8D10085D766 /* Images.xcassets */,
 				844011681AFEE8D10085D766 /* LaunchScreen.xib */,
 				844011591AFEE8D10085D766 /* Supporting Files */,
@@ -580,9 +593,10 @@
 		8440117F1AFEEEF00085D766 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84D8557A1B6BD33600ACF1B8 /* Storyboards */,
 				84A498CD1B0CF1F5000719B3 /* BaseViewController.h */,
 				84A498CE1B0CF1F5000719B3 /* BaseViewController.m */,
-				846152FB1B641D9700A723F6 /* AdminMissionCategoryViewController */,
+				84D855781B6BD2C000ACF1B8 /* AdminViews */,
 				84A4986A1B0CE6D8000719B3 /* SideMenuViewControllers */,
 				84433F7A1B03BB7600CD6B16 /* SignupViewController */,
 				84433F761B03B2C600CD6B16 /* LoginViewController */,
@@ -1096,6 +1110,55 @@
 			name = CouponCell;
 			sourceTree = "<group>";
 		};
+		84D855781B6BD2C000ACF1B8 /* AdminViews */ = {
+			isa = PBXGroup;
+			children = (
+				84D855851B6BF21300ACF1B8 /* AdminBaseViewController.h */,
+				84D855861B6BF21300ACF1B8 /* AdminBaseViewController.m */,
+				84D855811B6BD47A00ACF1B8 /* AdminInitialView */,
+				846152FB1B641D9700A723F6 /* AdminMissionCategoryViewController */,
+				84D855791B6BD31700ACF1B8 /* AdminSettingsView */,
+				84D855881B6C000500ACF1B8 /* AdminUsersViewController */,
+			);
+			name = AdminViews;
+			sourceTree = "<group>";
+		};
+		84D855791B6BD31700ACF1B8 /* AdminSettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				84D8557E1B6BD47600ACF1B8 /* AdminSettingsViewController.h */,
+				84D8557F1B6BD47600ACF1B8 /* AdminSettingsViewController.m */,
+			);
+			name = AdminSettingsView;
+			sourceTree = "<group>";
+		};
+		84D8557A1B6BD33600ACF1B8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				844011631AFEE8D10085D766 /* Main.storyboard */,
+				84D8557B1B6BD3A500ACF1B8 /* Admin.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		84D855811B6BD47A00ACF1B8 /* AdminInitialView */ = {
+			isa = PBXGroup;
+			children = (
+				84D855821B6BD4AC00ACF1B8 /* AdminInitialViewController.h */,
+				84D855831B6BD4AC00ACF1B8 /* AdminInitialViewController.m */,
+			);
+			name = AdminInitialView;
+			sourceTree = "<group>";
+		};
+		84D855881B6C000500ACF1B8 /* AdminUsersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84D855891B6C003B00ACF1B8 /* AdminUsersViewController.h */,
+				84D8558A1B6C003B00ACF1B8 /* AdminUsersViewController.m */,
+			);
+			name = AdminUsersViewController;
+			sourceTree = "<group>";
+		};
 		84EC518A1B0A57FC00F2F624 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -1275,6 +1338,7 @@
 				8464794A1B29F52A00C140DD /* picturesiconselected@3x.png in Resources */,
 				84EC519C1B0A57FC00F2F624 /* a_icon@3x.png in Resources */,
 				84EC519B1B0A57FC00F2F624 /* a_icon@2x.png in Resources */,
+				84D8557D1B6BD3A500ACF1B8 /* Admin.storyboard in Resources */,
 				84EC51A21B0A57FC00F2F624 /* password.png in Resources */,
 				84D62B0B1B1E328B004745A0 /* search_icon@3x.png in Resources */,
 				84A498BE1B0CEDB1000719B3 /* comment_selected@2x.png in Resources */,
@@ -1456,8 +1520,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D855871B6BF21300ACF1B8 /* AdminBaseViewController.m in Sources */,
 				847F583B1B430791006A63E1 /* AboutUsViewController.m in Sources */,
+				84D855801B6BD47600ACF1B8 /* AdminSettingsViewController.m in Sources */,
 				84CE899D1B64EFB50025316F /* CategoryModel.m in Sources */,
+				84D855841B6BD4AC00ACF1B8 /* AdminInitialViewController.m in Sources */,
 				84AB4BD41B2D9F51003D0184 /* CityMissionViewController.m in Sources */,
 				84D62B501B24A773004745A0 /* CouponsViewController.m in Sources */,
 				84D62B331B23280B004745A0 /* MissionsTableCell.m in Sources */,
@@ -1468,6 +1535,7 @@
 				84A498CF1B0CF1F5000719B3 /* BaseViewController.m in Sources */,
 				84D62B181B1F6FF8004745A0 /* MissionViewController.m in Sources */,
 				846479131B29F46F00C140DD /* AboutMissionViewController.m in Sources */,
+				84D8558B1B6C003B00ACF1B8 /* AdminUsersViewController.m in Sources */,
 				8440115C1AFEE8D10085D766 /* main.m in Sources */,
 				844011911AFEF0C40085D766 /* AppFunctions.m in Sources */,
 				84A498781B0CE83C000719B3 /* RightMenuViewController.m in Sources */,
@@ -1512,6 +1580,7 @@
 				844011641AFEE8D10085D766 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		844011681AFEE8D10085D766 /* LaunchScreen.xib */ = {
@@ -1520,6 +1589,14 @@
 				844011691AFEE8D10085D766 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		84D8557B1B6BD3A500ACF1B8 /* Admin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D8557C1B6BD3A500ACF1B8 /* Base */,
+			);
+			name = Admin.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
