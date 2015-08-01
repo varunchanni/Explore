@@ -33,6 +33,7 @@ NSString *const _EX_IDMssonStrbrdID         = @"MissionStrbrdID";
 NSString *const _EX_IDAbtMssonStrbrdID      = @"AboutMissionStrbrdID";
 NSString *const _EX_IDMssonDoneStrbrdID     = @"MissionDoneStrbrdID";
 NSString *const _EX_IDPrfleNavStrbrdID      = @"ProfileNavStrbrdID";
+NSString *const _EX_IDProfileStrbrdID       = @"ProfileStrbrdID";
 NSString *const _EX_IDAboutUsNavStrbrdID    = @"AboutUsNavStrbrdID";
 NSString *const _EX_IDCupnsNavStrbrdID      = @"CouponsNavStrbrdID";
 

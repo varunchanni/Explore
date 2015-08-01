@@ -12,7 +12,7 @@
 
 @property (strong, nonatomic) NSString *missionID;
 @property (strong, nonatomic) NSString *missionName;
-@property (strong, nonatomic) NSString *missionCategory;
+@property (strong, nonatomic) NSMutableArray *missionArrCategory;
 @property (strong, nonatomic) NSString *missionDescription;
 @property (strong, nonatomic) NSString *missionImageUrl;
 

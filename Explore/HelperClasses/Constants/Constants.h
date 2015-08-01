@@ -42,6 +42,7 @@ FOUNDATION_EXPORT NSString *const _EX_IDAbtMssonStrbrdID;
 FOUNDATION_EXPORT NSString *const _EX_IDMssonDoneStrbrdID;
 FOUNDATION_EXPORT NSString *const _EX_IDAboutUsNavStrbrdID;
 FOUNDATION_EXPORT NSString *const _EX_IDPrfleNavStrbrdID;
+FOUNDATION_EXPORT NSString *const _EX_IDProfileStrbrdID;
 FOUNDATION_EXPORT NSString *const _EX_IDCupnsNavStrbrdID;
 
 FOUNDATION_EXPORT NSString *const _EX_IDAdminCatMission;

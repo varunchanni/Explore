@@ -11,6 +11,7 @@
 typedef enum : NSUInteger {
     ChoiceCategory = 1,
     ChoiceMission,
+    ChoiceUsers,
 } AdminChoice;
 
 @interface AdminMissionCategoryViewController : AdminBaseViewController

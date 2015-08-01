@@ -834,7 +834,7 @@
         <!--Profile View Controller-->
         <scene sceneID="yyD-SJ-CYS">
             <objects>
-                <viewController id="y9S-Qc-uRZ" customClass="ProfileViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileStrbrdID" id="y9S-Qc-uRZ" customClass="ProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dFo-A4-DzS"/>
                         <viewControllerLayoutGuide type="bottom" id="aUr-Ft-huP"/>

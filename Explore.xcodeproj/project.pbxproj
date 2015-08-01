@@ -211,6 +211,9 @@
 		84D855841B6BD4AC00ACF1B8 /* AdminInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D855831B6BD4AC00ACF1B8 /* AdminInitialViewController.m */; };
 		84D855871B6BF21300ACF1B8 /* AdminBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D855861B6BF21300ACF1B8 /* AdminBaseViewController.m */; };
 		84D8558B1B6C003B00ACF1B8 /* AdminUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D8558A1B6C003B00ACF1B8 /* AdminUsersViewController.m */; };
+		84D855921B6C025C00ACF1B8 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D855911B6C025C00ACF1B8 /* UserModel.m */; };
+		84D855961B6C13B700ACF1B8 /* AdminQuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D855951B6C13B700ACF1B8 /* AdminQuesViewController.m */; };
+		84D8559A1B6C153C00ACF1B8 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D855991B6C153C00ACF1B8 /* QuestionModel.m */; };
 		84EC519A1B0A57FC00F2F624 /* a_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC518C1B0A57FC00F2F624 /* a_icon.png */; };
 		84EC519B1B0A57FC00F2F624 /* a_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC518D1B0A57FC00F2F624 /* a_icon@2x.png */; };
 		84EC519C1B0A57FC00F2F624 /* a_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC518E1B0A57FC00F2F624 /* a_icon@3x.png */; };
@@ -476,6 +479,12 @@
 		84D855861B6BF21300ACF1B8 /* AdminBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminBaseViewController.m; path = AdminBaseViewController/AdminBaseViewController.m; sourceTree = "<group>"; };
 		84D855891B6C003B00ACF1B8 /* AdminUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminUsersViewController.h; path = AdminUsersViewController/AdminUsersViewController.h; sourceTree = "<group>"; };
 		84D8558A1B6C003B00ACF1B8 /* AdminUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminUsersViewController.m; path = AdminUsersViewController/AdminUsersViewController.m; sourceTree = "<group>"; };
+		84D855901B6C025C00ACF1B8 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = Models/User/UserModel.h; sourceTree = "<group>"; };
+		84D855911B6C025C00ACF1B8 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = Models/User/UserModel.m; sourceTree = "<group>"; };
+		84D855941B6C13B700ACF1B8 /* AdminQuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminQuesViewController.h; path = AdminQuesViewController/AdminQuesViewController.h; sourceTree = "<group>"; };
+		84D855951B6C13B700ACF1B8 /* AdminQuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminQuesViewController.m; path = AdminQuesViewController/AdminQuesViewController.m; sourceTree = "<group>"; };
+		84D855981B6C153C00ACF1B8 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionModel.h; path = Models/QuestionModel/QuestionModel.h; sourceTree = "<group>"; };
+		84D855991B6C153C00ACF1B8 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionModel.m; path = Models/QuestionModel/QuestionModel.m; sourceTree = "<group>"; };
 		84EC518C1B0A57FC00F2F624 /* a_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_icon.png; sourceTree = "<group>"; };
 		84EC518D1B0A57FC00F2F624 /* a_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_icon@2x.png"; sourceTree = "<group>"; };
 		84EC518E1B0A57FC00F2F624 /* a_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_icon@3x.png"; sourceTree = "<group>"; };
@@ -926,6 +935,8 @@
 		84CE89951B64EF1E0025316F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84D855971B6C151A00ACF1B8 /* QuestionModel */,
+				84D8558C1B6C01FA00ACF1B8 /* UserModel */,
 				84CE89971B64EF310025316F /* Missions */,
 				84CE89961B64EF2A0025316F /* Categories */,
 			);
@@ -1119,6 +1130,7 @@
 				846152FB1B641D9700A723F6 /* AdminMissionCategoryViewController */,
 				84D855791B6BD31700ACF1B8 /* AdminSettingsView */,
 				84D855881B6C000500ACF1B8 /* AdminUsersViewController */,
+				84D855931B6C138B00ACF1B8 /* AdminQuesViewController */,
 			);
 			name = AdminViews;
 			sourceTree = "<group>";
@@ -1157,6 +1169,33 @@
 				84D8558A1B6C003B00ACF1B8 /* AdminUsersViewController.m */,
 			);
 			name = AdminUsersViewController;
+			sourceTree = "<group>";
+		};
+		84D8558C1B6C01FA00ACF1B8 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				84D855901B6C025C00ACF1B8 /* UserModel.h */,
+				84D855911B6C025C00ACF1B8 /* UserModel.m */,
+			);
+			name = UserModel;
+			sourceTree = "<group>";
+		};
+		84D855931B6C138B00ACF1B8 /* AdminQuesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84D855941B6C13B700ACF1B8 /* AdminQuesViewController.h */,
+				84D855951B6C13B700ACF1B8 /* AdminQuesViewController.m */,
+			);
+			name = AdminQuesViewController;
+			sourceTree = "<group>";
+		};
+		84D855971B6C151A00ACF1B8 /* QuestionModel */ = {
+			isa = PBXGroup;
+			children = (
+				84D855981B6C153C00ACF1B8 /* QuestionModel.h */,
+				84D855991B6C153C00ACF1B8 /* QuestionModel.m */,
+			);
+			name = QuestionModel;
 			sourceTree = "<group>";
 		};
 		84EC518A1B0A57FC00F2F624 /* Images */ = {
@@ -1525,6 +1564,7 @@
 				84D855801B6BD47600ACF1B8 /* AdminSettingsViewController.m in Sources */,
 				84CE899D1B64EFB50025316F /* CategoryModel.m in Sources */,
 				84D855841B6BD4AC00ACF1B8 /* AdminInitialViewController.m in Sources */,
+				84D8559A1B6C153C00ACF1B8 /* QuestionModel.m in Sources */,
 				84AB4BD41B2D9F51003D0184 /* CityMissionViewController.m in Sources */,
 				84D62B501B24A773004745A0 /* CouponsViewController.m in Sources */,
 				84D62B331B23280B004745A0 /* MissionsTableCell.m in Sources */,
@@ -1534,6 +1574,7 @@
 				8440115F1AFEE8D10085D766 /* AppDelegate.m in Sources */,
 				84A498CF1B0CF1F5000719B3 /* BaseViewController.m in Sources */,
 				84D62B181B1F6FF8004745A0 /* MissionViewController.m in Sources */,
+				84D855921B6C025C00ACF1B8 /* UserModel.m in Sources */,
 				846479131B29F46F00C140DD /* AboutMissionViewController.m in Sources */,
 				84D8558B1B6C003B00ACF1B8 /* AdminUsersViewController.m in Sources */,
 				8440115C1AFEE8D10085D766 /* main.m in Sources */,
@@ -1549,6 +1590,7 @@
 				84D62AE91B1E2824004745A0 /* MissionsViewController.m in Sources */,
 				8464795A1B2C043800C140DD /* MissionDoneViewController.m in Sources */,
 				84433F7D1B03BBAE00CD6B16 /* SignupViewController.m in Sources */,
+				84D855961B6C13B700ACF1B8 /* AdminQuesViewController.m in Sources */,
 				84D62B1D1B1F79D6004745A0 /* MissionOptionCell.m in Sources */,
 				84CE899A1B64EF5F0025316F /* MissionModel.m in Sources */,
 				8440118D1AFEEF590085D766 /* Constants.m in Sources */,

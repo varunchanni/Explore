@@ -48,7 +48,7 @@
 
 - (IBAction)buttonForAdminTouched:(id)sender {
     
-    if ([sender tag] < 3) {
+    if ([sender tag] < 4) {
         
 //        [self enablePanMode:NO];
         
